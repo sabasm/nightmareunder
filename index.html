@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <title>Nightmare Underworld</title>
+</head>
+
+<body>
+    <h1>Nightmare Underworld</h1>
+
+    <div id="cover" width="1152" height="768">
+        <div id="botones">
+            <button id="unJugador" onclick="hide()">1 jugador</button>
+            <button id="dosJugadores" onclick="hide()">2 jugadores</button>
+        </div>
+    </div>
+
+
+    <div id="game">
+        <canvas id="c" width="1152" height="768"></canvas>
+    </div>
+    
+    <div id="instrucciones">
+        <h3>Instrucciones:</h3>
+        <h5><i>"mi mayor temor es que me persigan por las noches... -Tú"</i></h5>
+        <p>Tu meta es sobrevivir a los fantasmas la mayor cantidad de tiempo posible</p>
+        <p>
+            controla tus sueños moviendote a la izquierda con la letra <b>A</b> y a la derecha con la letra <b>D</b>,
+            elevate con la letra <b>W</b>, <br><small>recuerda que en algunos sueños es lindo volar...</small>
+        </p>
+    </div>
+    
+    <script src="./Scripts/Enemies.js"></script>
+    <script src="./Scripts/Controles.js"></script>
+    <script src="./Scripts/Board.js"></script>
+    <!-- <script src="./Scripts/Wepons.js"></script>
+    <script src="./Scripts/Resources.js"></script> -->
+    <script src="./Scripts/Characters.js"></script>
+    <script src="./Scripts/Score.js"></script>
+    <script src="./Scripts/Main.js"></script>
+    <script type="text/javascript"></script>
+</body>
+
+</html>
